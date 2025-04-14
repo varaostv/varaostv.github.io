@@ -1,68 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VSTV</title>
-  <style>
-    body { background: #000; color: #fff; font-family: Arial; margin: 0; padding: 0; }
-    header { background: #111; padding: 30px; text-align: center; font-size: 32px; }
-    .hero { text-align: center; padding: 40px 20px; background: #1a1a1a; }
-    .hero h1 { font-size: 28px; margin-bottom: 20px; }
-    .hero p { font-size: 18px; margin-bottom: 30px; }
-    .btn-whatsapp {
-      background-color: #25D366; color: white;
-      padding: 15px 30px; font-size: 18px;
-      border: none; border-radius: 10px;
-      text-decoration: none;
-    }
-    .section { padding: 30px 20px; }
-    .section h2 { font-size: 24px; margin-bottom: 20px; text-align: center; }
-    .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-    .item { background: #222; border-radius: 8px; padding: 10px; width: 200px; text-align: center; }
-    .item img { width: 100%; border-radius: 4px; height: 120px; object-fit: cover; }
-    .item-title { margin-top: 10px; font-weight: bold; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaraoStv - IPTV Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adicionando fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>VSTV</header>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#series">Séries</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="hero">
-    <h1>+2000 Canais | +13.000 Filmes | +8000 Séries</h1>
-    <p>Teste agora nosso serviço IPTV premium com qualidade incrível!</p>
-    <a class="btn-whatsapp" href="https://wa.me/5599984286902?text=Teste%20iptv" target="_blank">Testar via WhatsApp</a>
-  </div>
+    <!-- Carrossel de imagens -->
+    <section id="home" class="carousel">
+        <div class="carousel-item">
+            <img src="imagem1.jpg" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+            <img src="imagem2.jpg" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="imagem3.jpg" alt="Imagem 3">
+        </div>
+    </section>
 
-  <div class="section">
-    <h2>Canais Populares</h2>
-    <div class="grid">
-      <div class="item">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/SporTV_logo_2021.svg/320px-SporTV_logo_2021.svg.png" alt="SportTV" />
-        <div class="item-title">SportTV</div>
-      </div>
-      <div class="item">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/HBO_logo.svg/320px-HBO_logo.svg.png" alt="HBO" />
-        <div class="item-title">HBO</div>
-      </div>
-      <div class="item">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TVGlobo_logo_2022.svg/320px-TVGlobo_logo_2022.svg.png" alt="Globo" />
-        <div class="item-title">Globo</div>
-      </div>
-    </div>
-  </div>
+    <!-- Seção de Ofertas -->
+    <section id="ofertas">
+        <h2>Ofertas Especiais</h2>
+        <p>Teste nosso serviço agora e aproveite descontos exclusivos!</p>
+        <button class="cta-button">Teste agora</button>
+    </section>
 
-  <div class="section">
-    <h2>Filmes e Séries em Destaque</h2>
-    <div class="grid">
-      <div class="item">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/1/17/Interstellar_Filme.png" alt="Interstellar" />
-        <div class="item-title">Interstellar</div>
-      </div>
-      <div class="item">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/8/8d/Game_of_Thrones_Temporada_1.jpg" alt="Game of Thrones" />
-        <div class="item-title">Game of Thrones</div>
-      </div>
-    </div>
-  </div>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 VaraoStv - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
